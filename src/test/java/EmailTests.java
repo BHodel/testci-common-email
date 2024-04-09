@@ -65,6 +65,7 @@ public class EmailTests {
 		assertTrue(email.getCcAddresses().size() == 2);
 	}
 	
+    // a cool comment for testing my CI
 	@Test
 	public void testAddHeader() throws Exception {
 		final String str = "placeholder";
